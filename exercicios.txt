@@ -1,0 +1,103 @@
+🟢 25 Exercícios Fáceis de Ponteiros (Fundamentos)
+
+🎯 Objetivo: entender o que são endereços de memória, como acessar e modificar valores com ponteiros, e usá-los em funções simples.
+
+1️⃣ Endereço de variável
+
+Declare uma variável inteira e exiba o valor e o endereço dela na tela.
+
+2️⃣ Atribuição de endereço
+
+Declare um ponteiro para inteiro, faça-o apontar para a variável do exercício anterior e exiba o valor por meio do ponteiro.
+
+3️⃣ Alteração via ponteiro
+
+Atribua um novo valor à variável usando apenas o ponteiro e exiba o resultado.
+
+4️⃣ Soma com dois ponteiros
+
+Crie duas variáveis inteiras, aponte dois ponteiros para elas e mostre a soma de seus valores via ponteiros.
+
+5️⃣ Função simples com ponteiro
+
+Crie uma função void dobrar(int *p) que dobre o valor apontado.
+
+6️⃣ Leitura via ponteiro
+
+Leia um número inteiro diretamente por meio de um ponteiro e mostre-o.
+
+7️⃣ Ponteiro nulo
+
+Crie um ponteiro nulo (NULL) e mostre uma mensagem de erro se tentar acessá-lo.
+
+8️⃣ Comparação de endereços
+
+Declare duas variáveis e compare seus endereços de memória.
+
+9️⃣ Troca de valores (swap)
+
+Crie uma função trocar(int *a, int *b) que troque os valores de duas variáveis inteiras.
+
+🔟 Incremento via ponteiro
+
+Crie uma função incrementar(int *x) que adicione 1 ao valor apontado.
+
+11️⃣ Vetor e ponteiro equivalentes
+
+Crie um vetor de 5 inteiros e percorra-o com um ponteiro, exibindo todos os valores.
+
+12️⃣ Aritmética de ponteiros
+
+Mostre o efeito de ptr + 1 sobre o endereço de memória de um vetor.
+
+13️⃣ Ponteiro para float
+
+Crie uma variável float, um ponteiro para float e mostre o valor e o endereço.
+
+14️⃣ Ponteiro para char
+
+Crie uma variável char, um ponteiro para char, e exiba o valor e o endereço.
+
+15️⃣ Ponteiro em função de soma
+
+Crie uma função somar(int *a, int *b, int *resultado) que armazene a soma de a + b em resultado.
+
+16️⃣ Mudar o valor de três variáveis
+
+Crie uma função que receba três ponteiros (int *a, *b, *c) e multiplique cada valor por 2.
+
+17️⃣ Vetor e incremento
+
+Use ponteiros para somar 10 a todos os elementos de um vetor de 5 inteiros.
+
+18️⃣ Ponteiro para ponteiro
+
+Crie uma variável, um ponteiro e um ponteiro para ponteiro; exiba o valor acessando com **.
+
+19️⃣ Função com retorno por referência
+
+Crie uma função que receba dois números e retorne o endereço do maior deles.
+
+20️⃣ Tamanho de tipos
+
+Use sizeof para mostrar quantos bytes cada tipo (int, float, double, char) ocupa na memória.
+
+21️⃣ Endereços de vetor
+
+Mostre os endereços dos elementos de um vetor e perceba o deslocamento entre eles.
+
+22️⃣ Ponteiro e constante
+
+Crie um ponteiro para constante e tente modificar o valor (observe o erro).
+
+23️⃣ Ponteiro genérico
+
+Use void * para armazenar o endereço de variáveis de tipos diferentes e mostre os valores convertendo com casts.
+
+24️⃣ Função que imprime endereço
+
+Crie uma função void exibirEndereco(int *x) que mostre o endereço passado como parâmetro.
+
+25️⃣ Ponteiro e laço for
+
+Crie um vetor de 10 inteiros e use apenas um ponteiro para exibir todos os elementos com for.
