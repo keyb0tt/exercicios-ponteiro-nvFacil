@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 void multFor2(int *a, int *b, int *c){
-
-
+    *a *= 2;
+    *b *= 2;
+    *c *= 2;
 }
 
 int main(){
@@ -16,10 +17,12 @@ int main(){
     printf("~ n2: %d\n", n2);
     printf("~ n2: %d\n", n3);
 
+    multFor2(&n1, &n2, &n3);
+
     printf("\n ~ Variáveis (função aplicada) ~\n\n");
     printf("~ n1: %d\n", n1);
     printf("~ n2: %d\n", n2);
-    printf("~ n2: %d\n", n3);
+    printf("~ n2: %d\n\n\n", n3);
 
     return 0;
 }
