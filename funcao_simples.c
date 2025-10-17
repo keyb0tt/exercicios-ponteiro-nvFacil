@@ -8,11 +8,10 @@ void dobrar(int *p){
 
 int main(){
     int n1 = 2;
-
+    system("clear");
+    printf("\n\nValor original da variável n1: %d\n", n1);
     dobrar(&n1);
-
-    printf("%d", n1);
-
-
+    printf("\nValor da variável n1 após ser dobrada usando ponteiro: %d\n\n", n1);
+    
     return 0;
 }
