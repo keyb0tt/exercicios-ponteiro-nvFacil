@@ -19,7 +19,7 @@ int main(){
     printf(" ~ Aplicação da Função Trocar ~ \n\n");
     trocar(&n1, &n2);
     printf("Variável N1: %d\n", n1);
-    printf("\nVariável N2: %d\n\n", n2);
-    
+    printf("\nVariável N2: %d\n\n\n", n2);
+
     return 0;
 }
