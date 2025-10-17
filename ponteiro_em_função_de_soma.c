@@ -10,7 +10,7 @@ int main(){
     system("clear");
     int n1 = 5, n2 = 5, resultado = 0;
 
-    printf("\n\n ~ Variáveis (valores original) ~\n\n");
+    printf("\n\n ~ Variáveis (valores originais) ~\n\n");
     printf("~ n1: %d\n", n1);
     printf("~ n2: %d\n", n2);
     printf("~ resultado: %d\n", resultado);
