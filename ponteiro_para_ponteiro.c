@@ -3,7 +3,12 @@
 #include <stdlib.h>
 
 int main(){
+    int var = 1;
+    int *ptr = &var;
+    int **ptrParaPtr = &ptr;
 
+    system("clear");
+    printf("\n\n%d\n\n", **ptrParaPtr);
 
     return 0;
 }
