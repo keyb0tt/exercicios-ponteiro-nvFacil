@@ -7,7 +7,7 @@ int main(){
     int n1 = 1, n2 = 2;
     const int *num = &n1;
 
-    *num = n2;
+    // *num = n2;
 
     return 0;
 }
